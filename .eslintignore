@@ -1,0 +1,7 @@
+dist
+node_modules
+public
+
+# 忽略自动更改的文件检测
+src/auto-imports.d.ts
+src/components.d.ts

@@ -1,0 +1,16 @@
+// el-tooltip 样式重写
+.el-popper.is-dark {
+  max-width: 500px;
+  padding: 5px 16px;
+  font-size: 12px;
+  border: 1px solid;
+  border-radius: 2px;
+  box-shadow: 0 3px 10px 0 rgb(124 138 160 / 50%);
+
+  .el-popper__arrow {
+    &::before {
+      border-top: none;
+      border-left: none;
+    }
+  }
+}

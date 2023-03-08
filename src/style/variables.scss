@@ -1,0 +1,288 @@
+/* stylelint-disable */
+
+/*
+  d 黑
+  w 白
+  v vv科技
+  bg background
+  o 一
+  t 二 or 顶部
+  l 左边
+  lb 表示分隔线 line between
+  h 表头
+  ll 移入行 In line
+  fc font-color
+  s 分割
+  m 主色
+  dia 弹窗
+  fl 浮窗
+  i_i 一般icon
+  i-c 组件icon
+  cb checkbox
+  ip input
+  btn button
+  swh switch
+  br 边框
+*/
+// 主色
+$bg_m_v: #F38700; // 主色
+$dbg_m_v: #F38700; //主色1 黑
+$wbg_m_v: #F38700; //主色1 白
+$dbg_m2_v: rgba(243, 135, 0, 0.8);
+; //主色2 黑
+$wbg_m2_v: rgba(243, 135, 0, 0.8);
+; //主色2 白
+$dbg_m3_v: rgba(243, 135, 0, 0.6);
+; //主色3 黑
+$wbg_m3_v: rgba(243, 135, 0, 0.6);
+; //主色3 白
+$dbg_m4_v: rgba(243, 135, 0, 0.4);
+; //主色4 黑
+$wbg_m4_v: rgba(243, 135, 0, 0.4);
+; //主色4 白
+$dbg_m5_v: rgba(243, 135, 0, 0.2);
+; //主色5 黑
+$wbg_m5_v: rgba(243, 135, 0, 0.2);
+; //主色5 白
+$bg_m5_v: rgba(243, 135, 0, 0.5);
+
+$bg_m05_v: rgba(243, 135, 0, 0.05);
+// 
+$wbg_m1_v: rgba(243, 135, 0, 0.1);
+// 
+$wbg_m1_othen: rgba(85, 143, 251, 0.1);
+// 
+$wbg_m1_v_text: #558FFB;
+$wbg_m1_othen_text: #F38700;
+
+$wbg_swh_br_v: rgba(212, 217, 221, 0.15);
+
+// 行情box颜色
+$q_box_red2: rgba(238, 64, 72, 0.2);
+$q_box_red3: rgba(238, 64, 72, 0.3);
+
+//逐笔推送
+$add_bg_up: rgba(238, 64, 72, 0.15) ;
+$add_bg_down: rgba(0, 157, 52, 0.15);
+$add_bg_flat: rgba(90, 94, 99, 0.15);
+$add_bg_flat_bd: rgba(90, 94, 99, 0.2);
+
+
+$q_box_green2: rgba(0, 157, 52, 0.2);
+$q_box_green3: rgba(0, 157, 52, 0.3);
+
+// 报价-涨跌色
+$up_light_r: rgba(239, 69, 81, 0.1); //涨跌 红色 白
+$up_dark_r: rgba(252, 66, 78, 0.1); //涨跌 红色 黑
+$dowm_light_g: rgba(42, 190, 77, 0.1);//涨跌 绿色 白
+$dowm_dark_g: rgba(54, 194, 136, 0.1); //涨跌 绿色 黑
+
+$up_light_r_o: rgba(239, 69, 81, 0.03); //涨跌 红色 白
+$up_dark_r_o: rgba(252, 66, 78, 0.03); //涨跌 红色 黑
+$dowm_light_g_o: rgba(42, 190, 77, 0.03); //涨跌 绿色 白
+$dowm_dark_g_o: rgba(54, 194, 136, 0.03); //涨跌 绿色 黑
+
+// 
+$dark_bg_c: #2B2C3B;
+$light_bg_c: #f5f7fa;
+
+// 背景色模块
+$dbg_o_v: #1E1F2B; //背景色模块 背景色 1  黑
+$wbg_o_v: #EEF3F6; //背景色模块 背景色 1  白
+$dbg_t_v: #252633; //背景色模块 背景色 2  黑
+$wbg_t_v: #FFFFFF; //背景色模块 背景色 2  白
+$dbg_th_v: #292A3A; //背景色模块 背景色 3  黑
+$wbg_th_v: #FFFFFF; //背景色模块 背景色 3  白
+$dbg_btn_dis: #FFFFFF1A; //背景色模块 背景色 4  黑
+$wbg_btn_dis: #EBEEF0; //背景色模块 背景色 4  白
+$dbg_btn_reset:rgba(255, 255, 255, 0.1);//背景色模块 背景色 5 黑
+$wbg_btn_reset:#EBEEF0; //背景色模块 背景色 5 白
+$dbg_h_bg:rgba(255, 255, 255, 0.08); // 菜单hover背景色 黑
+$wbg_h_bg:rgba(243, 135, 0, 0.08); // 菜单hover背景色 白
+// 左侧导航
+$dl_bg_v: #1A1B27; //左侧导航 常规头 黑
+$wl_bg_v: #1A1B27; //左侧导航 常规头 白
+$dl_bg_ck_v: #313447; //左侧导航 选中 黑
+$wl_bg_ck_v: #313447; //左侧导航 选中 白
+// 顶部页签
+$dt_bg_v: #252633; //顶部页签 页签底色 黑
+$wt_bg_v: #FFFFFF; //顶部页签 页签底色 白
+$dt_lb_v: #323348; //顶部页签 分割线 黑
+$dt_lt_btm: #1e1f2b;/// 顶部页签 分割线同 黑
+$dt_lt_btm_lg: #EEF3F6;//顶部页签 分割线同 白
+$wt_lb_v: #E7EAF0; //顶部页签 分割线 白
+$dt_bg_ck_v: #35374D; //顶部页签 移入 黑
+$wt_bg_ck_v: #F5F6F9; //顶部页签 移入 白
+// 表格1颜色///##2F303C  弹出框
+$dto_h_v: #363644; //表格1 表头 黑
+$wto_h_v: #F5F7F8; //表格1 表头 白
+$dto_ll_v: #393A49; //表格1 移入行 黑
+$wto_ll_v: #FEF6EB; //表格1 移入行 白
+$dto_lb_v: #37384D; //表格1 表格线 黑
+$wto_lb_v: #EDF1F5; //表格1 表格线 白
+// 表格2   //#252633
+$dtt_h_v: #2C2D3D; //表格2 表头 黑
+$wtt_h_v: #F5F7F8; //表格2 表头 白
+$dtt_ll_v: #363743; //表格2 移入行 黑
+$wtt_ll_v: #FEF6EB; //表格2 移入行 白
+$dtt_lb_v: #2D2E3F; //表格2 表格线 黑
+$wtt_lb_v: #EDF1F5; //表格2 表格线 白
+$dtt_ll_df_v: #2f303c; // 表格 移入默认色 黑
+$wtt_ll_df_v: #fef6eb; // 表格 移入默认色 白
+$dtt_ll_ac_v: #252633; // 表格 激活色 黑
+$wtt_ll_ac_v: #ffffff; // 表格 激活色 白
+// 全局其他色
+$dlb_s_v: #37384D; //分割线 黑
+$wlb_s_v: #E6EAEE; //分割线 白
+$dip_lb_v: #444557; //边框线 黑
+$wip_lb_v: #D4D9DD; //边框线 白
+$dmar_lb_v: #1D1E28; //行情边框分割线  黑
+$wmar_lb_v: #E1EBF0; //行情边框分割线  白
+$dbg_dia_modal_v: #252633; //弹窗黑 -xin
+$wbg_dia_modal_v: #FFFFFF; //弹窗白 -xin
+$dbg_dia_v: #2F303C; //弹窗select 黑
+$wbg_dia_v: #FFFFFF; //弹窗select 白
+$dbg_dia_ck_v: #292A36; //弹窗select 选中 黑
+$wbg_dia_ck_v: #F2F5F8; //弹窗select 选中 白
+$dbg_dia_ll_v: #414353; //弹窗select 移入 黑
+$wbg_dia_ll_v: #FEF6EB; //弹窗select 移入 白
+$dbg_fl_v: #414353; //内容浮窗 黑
+$wbg_fl_v: #FFFFFF; //内容浮窗 白
+$dbg_char_v: rgba(65, 67, 83, 0.9); //图表浮窗 黑
+$wbg_char_v: rgba(255, 255, 255, 0.9); //图表浮窗 白
+$dcb_lb_v: #464761; //复选 单选 边框 黑
+$wcb_lb_v: #ABACB1; //复选 单选 边框 白
+$dcb_lb_t_v: #4A4B56; // 复选 单选 边框 禁用 黑
+$wcb_lb_t_v: #dddddd; // 复选 单选 边框 禁用 白
+$derr_lb_v: #FF4833; //报错颜色 黑
+$werr_lb_v: #FF4833; //报错颜色 白
+$din_bg_d_v: #333445; // input 禁用背景色 黑
+$win_bg_d_v: #F5F7FA; // input 禁用背景色 白
+$dlb_fl_v: #3B3D4E; //内容浮窗边框 黑
+$wlb_fl_v: #D5DBE1; //内容浮窗边框 白
+$dbb_fl_v: rgba(255, 255, 255, 0.1);//reset按钮hover背景色 黑
+$wbb_fl_v: #EBEEF0;//reset按钮hover背景色 白
+$wbg_dia_l_v: #F2F5F9; // 弹窗 左背景色 白
+$dbg_dia_l_v: #2F303C; // 弹窗 左背景色 黑
+$wbg_dia_r_v: #FFFFFF; // 弹窗 右背景色 白
+$dbg_dia_r_v: #363743; // 弹窗 右背景色 黑
+$wbg_dia_l_btn_v: rgba(93, 111, 127, 0.05); // 弹窗 左侧选中背景色 白
+$dbg_dia_l_btn_v: rgba(255, 255, 255, 0.08); // 弹窗 左侧选中背景色 黑
+$wfc_dia_l_btn_v: #F38700; // 弹窗 左侧选中字体色 白
+$dfc_dia_l_btn_v: #E9EAf4; // 弹窗 左侧选中字体色 黑
+$wlb_swh_v: rgba(212, 217, 221, 0.15); // 开关 边框色 明亮
+$dlb_swh_v: rgba(212, 217, 221, 0.05); // 开关 边框色 暗黑
+$wbg_swh_v: rgba(171, 172, 183, 0.5); // 开关 背景色 明亮
+$dbg_swh_v: rgba(171, 172, 183, 0.5); // 开关 背景色 暗黑
+$wbg_ipt_dis: rgba(0, 0, 0, 0.05); // 输入框 背景色 禁用 白 
+$dbg_ipt_dis: rgba(255, 255, 255, 0.05); // 输入框 背景色 禁用 黑 
+$wlb_ipt_dis: rgba(0, 0, 0, 0.1); // 输入框 边框 禁用 黑 
+$dlb_ipt_dis: rgba(255, 255, 255, 0.1); // 输入框 边框 禁用 黑 
+$wbg_nav_bg:#f7f8fa; // nav背景色 白
+$dbg_nav_bg:#21212b; // nav背景色 黑
+$wbg_nav_active_bg:#fff; // nav选中背景色 白
+$dbg_nav_active_bg:#2b2d3d; // nav选中背景色 黑
+$w_scroll_thumb_bg_ck: #B9BAC0; // 滚动条hover颜色 白
+$d_scroll_thumb_bg_ck: #484A5B; // 滚动条hover颜色 黑
+$w_scroll_thumb_bg: #CBCDD6; // 滚动条默认颜色 白
+$d_scroll_thumb_bg: #41424D; // 滚动条默认颜色 黑
+
+//阴影颜色
+$dbs_v: rgba(0, 0, 0, 0.5); //阴影颜色 黑
+$wbs_v: rgba(124, 138, 160, 0.5); //阴影颜色 白
+// 字体颜色
+$fc_f_v: #FFF; //纯色字体
+$wfc_f_v: #333; //纯色字体
+$dfc_fff_v: #FFF; //纯色字体 黑
+$wfc_fff_v: #FFF; //纯色字体 白
+$dfc_m_v:#F38700; //tab选中色，主题色 黑
+$wfc_m_v:#F38700; //tab选中色，主题色 白
+$dfc_h_v:#E9EAF4; //标题颜色 黑
+$wfc_h_v:#191919; //标题颜色 白
+$dfc_c_v:#abacb7; //内容文字颜色 黑
+$wfc_c_v:#5a5e63; //内容文字颜色 白
+$dfc_a_v:#82828F; //辅助文字颜色 黑
+$wfc_a_v:#868A8F; //辅助文字颜色 白
+$dfc_d_v:#585966; //disable文字颜色 黑
+$wfc_d_v:#B2B2B2; //disable文字颜色 白
+$dtab_d_v: #ABACB7;//tab返回图标颜色 黑
+$wtab_d_v: #888899;//tab返回图标颜色 白
+//个股提醒 边框线
+$d_bb_line: #2d2e3f; //border-color 黑
+$w_bb_line: #eef1f4; //border-color 白
+
+//F10
+$d_bg_t:#2a2b38;
+$w_bg_t:#f9fbfc;
+
+// 行情-报价
+$dbox_bg_c: rgba(136, 136, 153, .1); // 暗黑
+$wbox_bg_c: rgba(136, 136, 153, .1); // 明亮
+$dbg_s_v: #9295a1; // 领涨模块黑
+$wbg_s_v: #a2abb2;// 领涨模块白
+$wbg_r_v: #FD7784; // 港股热点下方表格 浅色
+$dbg_r_v: #FD6372; // 港股热点下方表格 深色
+$dbg_g_v: #4ECC7F; // 深绿 行情港股热点
+$wbg_ge_v: #4ECC7F;
+
+$dfc_g_v:#36C288; //涨跌 绿色 黑
+$wfc_g_v:#009D34; //涨跌 绿色 白
+$dfc_r_v:#FC424E; //涨跌 红色 黑
+$wfc_r_v:#EE4048; //涨跌 红色 白
+$dfc_z_v:#A2ABB2; //涨跌 中性 黑
+$wfc_z_v:#A2ABB2; //涨跌 中性 白
+$dfc_l_v:#6C96F5; //链接颜色  黑
+$wfc_l_v:#2440B3; //链接颜色  白
+$dfc_l_ck_v:#486CE5; //链接颜色 移入色  黑
+$wfc_l_ck_v:#112A8E; //链接颜色 移入色  白
+$dfc_i_i_v:#ABACB7; //一般icon  黑
+$wfc_i_i_v:#888899; //一般icon  白
+$dfc_i_c_v:#888899; //组件icon  黑
+$wfc_i_c_v:#ABACB1; //组件icon  白
+$d_link_a:#6C96F5; //连接可点击跳转颜色  黑
+$w_link_a:#2440B3; //连接可点击跳转颜色  白
+// 资讯详情背景颜色
+$d_if_bg_v:#2A2B37;
+$l_if_bg_v: #FAFAFA;
+
+// 行情成交统计
+$d_del_bg: #2f3040;
+$l_del_bg: #f6f7f8;
+
+// 分组弹窗背景色
+$wbg_g_v: #F7F9FC; // 灰色背景 白
+$dbg_g_v: #2C2D3D; // 灰色背景 黑
+$wbg_h_v: rgba(124, 138, 160, 0.08); // 分组列表hover 白
+$dbg_h_v: rgba(255, 255, 255, 0.05); // 分组列表hover 黑
+
+//主图
+$dbg_chart: rgba(37, 38, 51, 0.5);
+$wbg_chart: rgba(255, 255, 255, 0.5);
+
+// 行情表格
+// 提醒icon背景色
+$bg_i_i_r_v: rgb(68, 131, 252, 0.2);
+$fc_i_i_r_v: #558FFB;
+
+$appMaimH: calc(100vh - 34px);
+$appMainNtic:calc(100vh - 64px);
+$marketMin: calc(100vh - 46px);
+$marketMinNtic: calc(100vh - 76px);
+$bottomNotice: 30px;
+$marketRight: calc(100vh - 78px);
+$marketRightNtic: calc(100vh - 108px);
+
+
+// sidebar 关于侧边栏的样式变量
+$menuText: #E9EAf4;
+$menuActiveText: #F38700;
+$subMenuActiveText: #F38700;
+$menuBg: #304156;
+$menuHover: #263445;
+$subMenuBg: #1A1B27; // 子菜单背景色
+$subMenuHover: #1A1B27;
+$subMenuHoverText: $subMenuActiveText;
+$sideBarWidth: 180px; // 侧边栏宽度
+$sideBarBg: #1A1B27; // 侧边栏背景色
+
+$ap: 1
